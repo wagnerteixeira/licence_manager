@@ -67,10 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<void> setup() async  {
       final FirebaseOptions firebaseOptions = const FirebaseOptions(
-        googleAppID: '1:961666186306:web:b703ee96d2b679c4be81db',
-        gcmSenderID: '961666186306',
-        apiKey: 'AIzaSyCnsJ0x07VRo-xHWerkqaasItwwMtsuV4Y',
-        projectID: 'teste-b6236',
+      
       );
       final FirebaseApp app = await FirebaseApp.configure(
         name: 'test',
