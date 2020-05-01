@@ -28,6 +28,5 @@ jobs:
         # The Flutter version to make available on the path        
         channel: 'stable'    
 
-    - run: flutter pub get
-    - run: flutter test
+    - run: flutter pub get    
     - run: flutter build apk
